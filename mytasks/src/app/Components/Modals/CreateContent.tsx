@@ -118,7 +118,7 @@ function CreateContent({ addTask }: CreateContentProps) {
         />
       </div>
       <div className="input-control toggler">
-        <label htmlFor="important">Toggle Important</label>
+        <label htmlFor="important"> Important</label>
         <input
           checked={important}
           onChange={handleChange("important")}
