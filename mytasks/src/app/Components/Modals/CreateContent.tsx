@@ -97,7 +97,7 @@ function CreateContent({ addTask }: CreateContentProps) {
         />
       </div>
       <div className="input-control">
-        <label htmlFor="description">Description</label>
+        <label htmlFor="description">Descriptions</label>
         <textarea
           value={description}
           onChange={handleChange("description")}
@@ -108,7 +108,7 @@ function CreateContent({ addTask }: CreateContentProps) {
         ></textarea>
       </div>
       <div className="input-control">
-        <label htmlFor="date">Date</label>
+        <label htmlFor="date">Dates</label>
         <input
           value={date}
           onChange={handleChange("date")}
@@ -118,7 +118,7 @@ function CreateContent({ addTask }: CreateContentProps) {
         />
       </div>
       <div className="input-control toggler">
-        <label htmlFor="important"> Important</label>
+        <label htmlFor="important"> Importants</label>
         <input
           checked={important}
           onChange={handleChange("important")}
